@@ -12,9 +12,8 @@ body {
     background-color: var(--white);
     color: var(--black);
     font-family: 'Work Sans', sans-serif;
+    display: flex;
 }
-
-
 
 /* ON YOUR OWN
 
@@ -25,3 +24,311 @@ body {
     3. have a drop-shadow on the text
 
 */
+.logo {
+    width: 1vw;
+    height: 2vh;
+    margin-right: 0.5vw;
+}
+
+img {
+    width: 33vw;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 1vh;
+
+}
+
+.container {
+    width: 40vw;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 3vw;
+    margin-right: 17vw;
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+label {
+    display: block;
+    margin-top: 1.5vh;
+}
+
+
+fieldset {
+    background-color: #f1f1f1;
+    ;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 64vh;
+    border-radius: 5px;
+}
+
+input {
+    width: 19vw;
+
+}
+
+select {
+    width: 19vw;
+}
+
+h1 {
+    font-size: 16px;
+    color: var(--black);
+}
+
+h2 {
+    font-size: 50px;
+    color: var(--black);
+}
+
+h3 {
+    margin-left: 0.7vw;
+    margin-top: 1.5vh;
+    color: var(--black);
+
+}
+
+form p {
+    margin-left: 0.7vw;
+    margin-top: 1.3vh;
+    margin-bottom: 1.5vh;
+    width: 19vw;
+    font-size: 13px;
+}
+
+legend {
+    text-align: center;
+    background-color: var(--yellow);
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+p {
+    color: var(--black);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+
+select {
+    width: 19vw;
+    height: 3.35vh;
+
+}
+
+button {
+    padding: .5em 1em;
+    border-radius: 5px;
+    background-color: var(--grey-blue);
+    width: 38.7vw;
+    margin-left: 0.7vw;
+    margin-top: 3vh;
+    height: 4vh;
+    line-height: normal;
+    color: white;
+
+
+}
+
+.tos {
+    margin-top: 3vh;
+    margin-left: 9vw;
+    margin-bottom: 2vh;
+    font-size: 13px;
+    width: 30vw;
+}
+
+.tos a {
+    color: var(--grey-blue-hover);
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    select {
+        width: 80vw;
+        height: 5vh;
+    }
+
+    button {
+        width: 80vw;
+        height: 5vh;
+        margin-left: 0;
+    }
+
+    .tos {
+        margin-left: 5vw;
+        width: 70vw;
+    }
+
+    header img {
+        width: 100%;
+        height: 65%;
+
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 5vw;
+        height: 10vh;
+        margin-right: 0.5vw;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 800px) {
+    select {
+        width: 60vw;
+        height: 4vh;
+    }
+
+    button {
+        width: 60vw;
+        height: 4.5vh;
+        margin-left: 0;
+    }
+
+    .tos {
+        margin-left: 10vw;
+        width: 50vw;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header img {
+        width: 100%;
+        height: 45%;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .logo {
+        width: 4vw;
+        height: 8vh;
+        margin-right: 0.5vw;
+    }
+}
+
+
+@media (min-width: 801px) and (max-width: 1400px) {
+    select {
+        width: 24vw;
+        height: 3.5vh;
+    }
+
+    input {
+        width: 24vw;
+    }
+
+    ;
+
+    button {
+        width: 40vw;
+        height: 4vh;
+        margin-left: 0.5vw;
+    }
+
+    .tos {
+        margin-left: 15vw;
+        width: 35vw;
+    }
+
+    header {
+        overflow: hidden;
+        width: 40vw;
+        height: 100vh;
+    }
+
+    header img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    h1 {
+        font-size: 16px;
+        color: var(--black);
+    }
+
+    h2 {
+        font-size: 3.5em;
+        color: var(--black);
+    }
+
+    h3 {
+        margin-left: 0.7vw;
+        margin-top: 1.5vh;
+        color: var(--black);
+
+    }
+
+    form p {
+        margin-left: 0.7vw;
+        margin-top: 1.3vh;
+        margin-bottom: 1.5vh;
+        width: 19vw;
+        font-size: 13px;
+    }
+    .logo {
+        width: 2vw;
+        height: 4vh;
+        margin-right: 0.5vw;
+    }
+}
+
+
+
+@media (min-width: 1401px) {
+    select {
+        width: 19vw;
+        height: 3.35vh;
+    }
+
+    button {
+        width: 38.7vw;
+        height: 4vh;
+        margin-left: 0.7vw;
+    }
+
+    .tos {
+        margin-left: 9vw;
+        width: 30vw;
+    }
+    .logo {
+        width: 1vw;
+        height: 2vh;
+        margin-right: 0.5vw;
+    }
+}

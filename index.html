@@ -17,7 +17,87 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+    <header>
+        <div>
+            <picture>
+                <source media="(max-width:800px)" srcset="img/work-at-home-with-pets.webp" >
+                <img src="img/work-at-home.webp"" alt="remote.ly logo">
+            </picture>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="flex">
+                <img src="img/logo.svg" alt="remote.ly" class="logo">
+                
+                <h1>remote.ly</h1>
+            </div>
+            <div>
+                <h2>Make every day ‘bring your pet to work’ day.</h2>
+                <p>Our award-winning platfrom lets tou take your work on the go, wherever life may lead you. Sign up now
+                    to securely connect to clients, no matter where you are.</p>
+            </div>
+            <form action="/subscribe" method="post">
+                <fieldset>
+                    <legend>Try it free for 7 days, with plans starting at $25/month.</legend>
+                    <h3>Your Account</h3>
+                    <div class="content">
+                        <div class="input-box">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password-again">Password (Again!)</label>
+                            <input type="password" id="password-again" name="password" required>
+                        </div>
+                    </div>
+                    <p>Your password must contain at least one uppercase letter, one lowercase letter, and one number
+                    </p>
+                    <h3>All About You</h3>
+                    <div class="content">
+                        <div class="input-box">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="date-of-birth">Date of Birth</label>
+                            <input type="date" id="date-of-birth" name="date-of-birth" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="business-type">Business Type</label>
+                            <select name="business-type" id="business-type" required>
+                                <option value="0">Sole Proprietorship</option>
+                                <option value="1">Partnership</option>
+                                <option value="2">Limited Liability</option>
+                                <option value="3">Corporation</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit">Claim Your Free Trial >
+                          </button>
+
+                    <p class="tos">By signing up, you agree to our <a>Terms of Service</a> and <a>Privacy Policy</a>.</p>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
 
 </body>
+
 </html>
